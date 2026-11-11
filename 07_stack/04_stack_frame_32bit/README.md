@@ -7,7 +7,7 @@ variables, reads them back into EAX and EBX, tears the frame down and
 returns. _start then exits with code 0 using int 0x80 (eax = 1).
 
 ## Stack walkthrough
-Let S be the value of ESP when _start begins (<your ESP>). In 32-bit
+Let S be the value of ESP when _start begins (0xffffcd40). In 32-bit
 mode every stack slot is 4 bytes, not 8.
 
 | Step | Instruction | ESP after | EBP after | What happened |

@@ -7,7 +7,7 @@ RBX, then RAX, so each register gets its own value back. It then exits
 with code 0.
 
 ## Stack walkthrough
-Let S be the value of RSP when _start begins (<your RSP, e.g. 0x7fffffffdc80>).
+Let S be the value of RSP when _start begins (0x7fffffffdc00).
 
 | Step | Instruction | RSP after | What happened |
 |---|---|---|---|

@@ -7,7 +7,7 @@ then pops into EBX then EAX, so each register gets its own value back.
 It then exits with code 0 using int 0x80 (eax = 1).
 
 ## Stack walkthrough
-Let S be the value of ESP when _start begins (<your ESP>). In 32-bit
+Let S be the value of ESP when _start begins (0xffffcd30). In 32-bit
 mode every stack slot is 4 bytes, not 8.
 
 | Step | Instruction | ESP after | What happened |

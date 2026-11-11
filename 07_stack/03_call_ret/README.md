@@ -6,7 +6,7 @@ adds 5 to RAX (making it 15) and returns. Execution continues at the
 after_call label, and the program exits with code 0.
 
 ## Stack walkthrough
-Let S be the value of RSP when _start begins (<your RSP, e.g. 0x7fffffffdc80>).
+Let S be the value of RSP when _start begins  0x7fffffffdc20.
 
 | Step | Instruction | RSP after | What happened |
 |---|---|---|---|
